@@ -1,0 +1,400 @@
+.background-division {
+    width: 1440px;
+    height: 950px;
+    flex-shrink: 0;
+    display: flex;
+    background-image: url("Images/Bitmap2.jpg");
+    background-repeat: no-repeat;
+}
+
+.the-main-tag {
+    flex: 10;
+}
+.flex-size_3 {
+    width: 1440px;
+    height: 249px;
+    background-color: #071629;
+
+}
+.header-elements {
+    display: flex;
+    flex-direction: row;
+}
+.header_links_display {
+    display: inline-flex;
+    height: 15px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 52px;
+    position: fixed;
+    right: 10%;
+    margin-top: 20px;
+}
+.menu{
+color: #FFF;
+font-family: Source Sans Pro;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.main-heading-content {
+    margin-top: 10.3% /*78px*/;
+}
+.get_schooled {
+    padding-top: 40px;
+    padding-right: 260px;
+    text-align: center;
+    color: white;
+    font-size: 107px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+.expressions {
+    padding-right: 260px;
+    text-align: center;
+    margin-bottom: 38px;
+    color: white;
+    font-size: 16px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    word-wrap: break-word
+}
+.smile {
+    margin: 0 27px;
+}
+.grin {
+    margin: 0 27px;
+}
+.laugh {
+    margin: 0 27px;
+}
+.first_button {
+    background: #C271FF;
+    height: 44px;
+    width: 15%;
+    border-radius: 22px;
+    position: relative;
+    left: 32%;
+    color: white;
+    font-size: 14px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+.second_div {
+    padding-top: 100px;
+    width: 1009px;
+    height: 237px;
+}
+.learning {
+    padding-left: 325px;
+    color: white;
+    font-size: 32px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 300;
+    word-wrap: break-word;
+}
+.learn {
+    color: #C271FF;
+    font-size: 32px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+.pros {
+    display: flex;
+    flex-direction: row;
+}
+
+.pro_names {
+    color: white;
+    font-size: 18px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 900;
+    line-height: 27px;
+}
+.pro_texts {
+    color: white;
+    font-size: 16px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: italic;
+    font-weight: 400;
+}
+.image-content {
+    width: 1009px;
+    height: 237px;
+}
+.testimonial_section {
+    width: 1440px;
+    height: 392px;
+    flex-shrink: 0;
+    background-color:#C271FF;
+}
+.testimonial_section div, .testimonial_section div div {
+    display: flex;
+}
+.testimonial_section div div {
+    flex-direction: column;
+    width: 730px;
+    height: 158px;
+    padding-left: 50px;
+    padding-top: 100px;
+}
+.testimonial_section .name {
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33.6px; /* 152.727% */
+    padding-top: 25px;
+}
+.testimonial_section .title {
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 33.6px; /* 152.727% */
+}
+.testimonial_section blockquote {
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33.6px; /* 152.727% */
+}
+.testimonial_section img {
+    padding-top: 100px;
+    padding-left: 300px;
+}
+.third_section {
+    width: 1228px;
+    height: 450px;
+    flex-shrink: 0;
+    background-color: #FFFFFF;
+}
+.tutorial {
+    padding-left: 200px;
+    color: #071629;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.popular {
+    color: #C271FF;
+    font-size: 32px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+.third_section_div {
+    width: 1228px;
+    height: 450px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    padding: 30px 10px 70px 150px;
+}
+.smiles {
+    color: #071629;
+    font-size: 16px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+.smile_text {
+    width: 162px;
+    height: 44px;
+    flex-shrink: 0;
+    color: rgba(7, 22, 41, 0.50);
+    font-size: 14px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word
+}
+.third_section_div .flex {
+    display: flex;
+    flex-direction: row;
+}
+.third_section_div .flex img {
+    margin: 15px 5px 15px 0;
+    border-radius: 50%;
+}
+.third_section_div .flex h3 {
+    margin-top: 15px;
+}
+.third_section_div .flex_1 {
+    display: flex;
+    flex-direction: row;
+}
+.third_section_div .flex_1 p {
+    margin: -4px 0 0 90px;
+    color: #C271FF;
+    font-size: 14px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    line-height: 27px;
+    word-wrap: break-word;
+}
+.phillip {
+    color: #C271FF;
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px; /* 192.857% */
+    word-wrap: break-word;
+}
+.fourth_section {
+    width: 1440px;
+    height: 600px;
+    flex-shrink: 0;
+    background-color: #071629;
+}
+.membership {
+    padding-top: 80px;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 300;
+    word-wrap: break-word;
+}
+.free {
+    color: #C271FF;
+    font-size: 32px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+.fourth_section_div {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.fourth_section button {
+    position: relative;
+    left: 43%;
+    top: 80px;
+    background: #C271FF;
+    border-radius: 22px;
+    height: 44px;
+    width: 162px;
+    color: white;
+    font-size: 14px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    word-wrap: break-word
+}
+.fourth_section_div .divs {
+    margin: 0 90px 0;
+}
+.fourth_section h2 {
+    color: white;
+    font-size: 18px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    line-height: 26px;
+    word-wrap: break-word;
+}
+.fourth_section p {
+    color: white;
+    font-size: 14px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+    word-wrap: break-word;
+}
+.fifth_section {
+    background-color: #fff;
+    margin: -40px -45.5% 30px -17%;
+    padding: 30px 0 40px 150px;
+}
+.fifth_flex {
+    display: flex;
+}
+.fifth_section_out_div {
+    flex-direction: column;
+    padding: 0 0 0 60px;
+}
+.fifth_section_in_div {
+    flex-direction: row;
+}
+.Title {
+    padding-right: 150px;
+    text-align: center;
+    color: #071629;
+    font-size: 60px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 300;
+    word-wrap: break-word;
+}
+.fifth_section_in_div h2 {
+    color: #071629;
+    font-size: 16px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+.fifth_section_in_div p {
+    color: rgba(7, 22, 41, 0.50);
+    font-size: 14px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+.left_div {
+    margin-left: 40px;
+}
+.right_div {
+    margin-left: 240px;
+}
+.footer_div {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.footer_div div {
+    position: relative;
+    right: -60%;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 90px;
+    color: white;
+    font-size: 12px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.copyright {
+    opacity: 0.3517;
+} 
+.social {
+    width: 130px;
+    height: 30px;
+    flex-shrink: 0;
+}
+.logo{
+    padding-left: 100px;
+}
+.tutorial-box2 {
+    padding-left: 50px;
+}
+.tutorial-box3 {
+    padding-left: 50px;
+}
+.tutorial-box4 {
+    padding-left: 50px;
+}
